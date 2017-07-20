@@ -33,7 +33,7 @@ Workshop. The tutorial will explore materials informatics using the
 [PyMKS][pymks] package.  The primary focus will be on demonstrating
 how [PyMKS][pymks] is used to create process-structure-property
 relationships. In no particular order the tutorial will try to cover
-some of the following time permitting,
+some of the following (time permitting),
 
  - Quantifying microstructure using 2 point statistics
 
@@ -41,11 +41,12 @@ some of the following time permitting,
 
  - Calculating the effective stiffness of composite materials
 
- - Exploring the connection between MKS and signal processing
+ - Exploring the connection between the MKS and signal processing
 
  - Learning from a Cahn-Hilliard simulation
 
- - Using [PyMKS][pymks] in a multiprocessing environment
+ - Using Dask to make [PyMKS][pymks] work in a
+   threaded/multiprocessing/parallel/distributed environment
 
 Some reading:
 
