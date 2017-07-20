@@ -45,7 +45,7 @@ some of the following (time permitting),
 
  - Learning from a Cahn-Hilliard simulation
 
- - Using Dask to make [PyMKS][pymks] work in a
+ - Using [Dask][dask] to make [PyMKS][pymks] work in a
    threaded/multiprocessing/parallel/distributed environment
 
 Some reading:
@@ -82,14 +82,17 @@ To check that you have things working correctly, try launching a
     $ jupyter notebook
 
 If you have a working notebook then try importing [PyMKS][pymks] and
-[Dask][dask],
+[Dask][dask] in the notebook with,
 
     In []: import pymks
     In []: import dask
+
+If that works, try running the [PyMKS][pymks] tests using,
+
     In []: pymks.test()
 
-in the notebook. The tests should print things to the screen, but
-should indicate success.
+The tests will print a lot of text to the screen, but should indicate
+success on the final line.
 
 # Issues
 
@@ -97,9 +100,11 @@ If you have problems with any of the above instructions, please raise
 them in the [Gitter channel](https://dask.pydata.org/en/latest/) or
 raise an [issue](https://github.com/wd15/mks-tutorial/issues) in this
 repository. These instructions are a moving target so will likely
-change if people report issues on various platforms.
+change if people report issues on various platforms. Also, please try
+and go through these installation instructions a few days before the
+workshop to give time to iron out any issues.
 
 [pymks]: http://pymks.org/en/latest/rst/README.html
 [jupyter]: http://jupyter.org/
 [dask]: https://dask.pydata.org/en/latest/
-[anaconda]: https://github.com/wd15/mks-tutorial/issues
+[anaconda]: https://www.continuum.io/downloads
