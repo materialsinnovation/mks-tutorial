@@ -58,14 +58,16 @@ Some reading:
 
 # Installation
 
-The tutorial will involve live coding and to follow along participants
+The tutorial will involve live coding. To follow along participants
 will need [PyMKS][pymks], a running [Jupyter Notebook][jupyter] and
 [Dask][Dask]. The easiest way to install these requirements is to
-build an Anaconda Python environment. See
-[https://www.continuum.io/downloads] to install Anaconda Python on
-your platform.
+build an [Anaconda Python][anaconda] environment. See
+[https://www.continuum.io/downloads][anaconda] to install [Anaconda
+Python][anaconda] on your platform. Any version of Python should work
+(either 2.7, 3.5 or 3.6), but this repository is only tested with
+Python 3.6.
 
-Once you have a working Python version and Conda build environment
+Once you have a working Python environment and a Conda build environment
 then try installing the following packages,
 
     $ conda install -c conda-forge -c pymks pymks
@@ -100,3 +102,4 @@ change if people report issues on various platforms.
 [pymks]: http://pymks.org/en/latest/rst/README.html
 [jupyter]: http://jupyter.org/
 [dask]: https://dask.pydata.org/en/latest/
+[anaconda]: https://github.com/wd15/mks-tutorial/issues
