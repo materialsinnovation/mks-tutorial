@@ -47,7 +47,7 @@ tutorial will cover some of the following depending on time,
 
  - Using [PyMKS][pymks] in a multiprocessing environment
 
-Some reading materails:
+Some reading:
 
  - *Materials Knowledge Systems in Python—a Data Science Framework for
    Accelerated Development of Hierarchical Materials*, D. B. Brough,
@@ -93,7 +93,8 @@ should indicate success.
 If you have problems with any of the above instructions, please raise
 them in the [Gitter channel](https://dask.pydata.org/en/latest/) or
 raise an [issue](https://github.com/wd15/mks-tutorial/issues) in this
-repository.
+repository. These instructions are a moving target so will likely
+change if people report issues on various platforms.
 
 [pymks]: http://pymks.org/en/latest/rst/README.html
 [jupyter]: http://jupyter.org/
