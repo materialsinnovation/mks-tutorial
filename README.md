@@ -11,10 +11,6 @@ MKS Tutorial &ndash; 08/03/2017
 </h1>
 
 <p align="center">
-<a href="http://mybinder.org/repo/wd15/mks-tutorial" target="_blank">
-<img src="http://mybinder.org/badge.svg"
-alt="Binder">
-</a>
 
 <a href="https://gitter.im/usnistgov/chimad-phase-field" target="_blank">
 <img src="https://img.shields.io/gitter/room/gitterHQ/gitter.svg"
