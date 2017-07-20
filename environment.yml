@@ -1,7 +1,7 @@
 name: pymks
 channels:
   - pymks
-dependencies
+dependencies:
   - python=3.6
   - pymks
   - dask
