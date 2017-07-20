@@ -29,11 +29,11 @@ alt="Gitter Chat">
 
 This is the repository for the Materials Knowledge System (MKS)
 tutorial scheduled for 08/03/2017 at the CHiMaD Phase Field
-Workshop. The tutorial explore the the MKS using the [PyMKS][pymks]
-package.  The tutorial will primarily be focused on demonstrating how
-[PyMKS][pymks] is used to create processing-structure-property
-relationships in materials science. In no particular order the
-tutorial will cover some of the following depending on time,
+Workshop. The tutorial will explore materials informatics using the
+[PyMKS][pymks] package.  The primary focus will be on demonstrating
+how [PyMKS][pymks] is used to create process-structure-property
+relationships. In no particular order the tutorial will try to cover
+some of the following time permitting,
 
  - Quantifying microstructure using 2 point statistics
 
@@ -57,7 +57,7 @@ Some reading:
 
 # Installation
 
-The tutorial will involve live coding and to follow along particpants
+The tutorial will involve live coding and to follow along participants
 will need [PyMKS][pymks], a running [Jupyter Notebook][jupyter] and
 [Dask][Dask]. The easiest way to install these requirements is to
 build an Anaconda Python environment. See
