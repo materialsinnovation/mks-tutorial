@@ -14,7 +14,7 @@ install:
   - conda info -a
   - conda create -q -y -n test-environment python=3.6
   - source activate test-environment
-  - conda install -q -y -n test-environment -c pymks pymks
+  - conda install -q -y -n test-environment -c pymks -c conda-forge pymks
   - conda install -q -y -n test-environment dask nbval jupyter
   - unset VIRTUAL_ENV
   - pip install .
