@@ -112,7 +112,7 @@ raise an [issue](https://github.com/wd15/mks-tutorial/issues) in this
 repository. These instructions are a moving target so will likely
 change if people report issues on various platforms. Also, please try
 and go through these installation instructions a few days before the
-workshop to give time to iron out any issues.
+tutorial to give time to iron out any issues.
 
 [pymks]: http://pymks.org/en/latest/rst/README.html
 [jupyter]: http://jupyter.org/
