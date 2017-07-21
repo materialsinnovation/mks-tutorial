@@ -56,6 +56,9 @@ Some reading:
    Manufacturing Innovation, 2017, vol. 6, issue 1, pp 36-52,
    [doi:10.1007/s40192-017-0089-0](http://dx.doi.org/10.1007/s40192-017-0089-0).
 
+ - See the [PyMKS theory
+   documentation](http://pymks.org/en/latest/THEORY.html).
+
 # Installation
 
 The tutorial will involve live coding. To follow along participants
