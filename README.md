@@ -59,7 +59,7 @@ Some reading:
 # Installation
 
 The tutorial will involve live coding. To follow along participants
-will need [PyMKS][pymks], a running [Jupyter Notebook][jupyter] and
+will need [PyMKS][pymks], a running [Jupyter notebook][jupyter] and
 [Dask][Dask]. The easiest way to install these requirements is to
 build an [Anaconda Python][anaconda] environment. See
 [https://www.continuum.io/downloads][anaconda] to install [Anaconda
@@ -77,7 +77,7 @@ then try installing the following packages,
 # Testing
 
 To check that you have things working correctly, try launching a
-[Jupyter Notebook][jupyter] using,
+[Jupyter notebook][jupyter] using,
 
     $ jupyter notebook
 
@@ -94,6 +94,13 @@ If that works, try running the [PyMKS][pymks] tests using,
 The tests will print a lot of text to the screen, but should indicate
 success on the final line.
 
+# Live Notebooks
+
+For those that are unable to follow the instructions above, there may
+be a limited number of live [Jupyter notebooks][jupyter] with the
+environment preinstalled. This will be hosted via [MATIN][matin]. More
+details will be available soon.
+
 # Issues
 
 If you have problems with any of the above instructions, please raise
@@ -108,3 +115,4 @@ workshop to give time to iron out any issues.
 [jupyter]: http://jupyter.org/
 [dask]: https://dask.pydata.org/en/latest/
 [anaconda]: https://www.continuum.io/downloads
+[matin]: https://matin.gatech.edu/
