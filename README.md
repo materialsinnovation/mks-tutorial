@@ -76,6 +76,10 @@ then try installing the following packages,
     $ conda install -c conda-forge -c pymks pymks
     $ conda install jupyter
     $ conda install dask
+    $ conda install bqplot
+    $ conda install ipywidgets
+    $ jupyter nbextension enable --py --sys-prefix widgetsnbextension
+    $ jupyter nbextension enable --py --sys-prefix bqplot
 
 # Testing
 
