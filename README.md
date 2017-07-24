@@ -84,13 +84,17 @@ To check that you have things working correctly, try launching a
 
     $ jupyter notebook
 
+For more information on setting up and using the notebook, see the
+[Jupyter Notebook
+Quckstart](https://jupyter.readthedocs.io/en/latest/content-quickstart.html).
 If you have a working notebook then try importing [PyMKS][pymks] and
 [Dask][dask] in the notebook with,
 
     In []: import pymks
     In []: import dask
 
-If that works, try running the [PyMKS][pymks] tests using,
+Hit `Shift + Enter` to run a cell. If that works, try running the
+[PyMKS][pymks] tests using,
 
     In []: pymks.test()
 
