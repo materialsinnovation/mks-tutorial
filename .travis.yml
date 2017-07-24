@@ -21,4 +21,4 @@ install:
   - jupyter nbextension enable --py --sys-prefix bqplot
   - unset VIRTUAL_ENV
 script:
-  - py.test --nbval --sanitize-with notebooks/sanitize.cfg index.ipynb
+  - py.test --nbval --sanitize-with notebooks/sanitize.cfg index.ipynb notebooks/

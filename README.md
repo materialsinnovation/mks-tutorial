@@ -76,6 +76,13 @@ then try installing the following packages,
     $ conda install -c conda-forge -c pymks pymks
     $ conda install jupyter
     $ conda install dask
+
+# Optional Installation
+
+If you would like to do more fancy plots during the tutorial (not
+strictly necessary), install
+[bqplot](http://bqplot.readthedocs.io/en/stable/):
+
     $ conda install bqplot
     $ conda install ipywidgets
     $ jupyter nbextension enable --py --sys-prefix widgetsnbextension
