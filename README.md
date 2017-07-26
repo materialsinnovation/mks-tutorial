@@ -25,6 +25,11 @@ alt="Gitter Chat">
 <img src="https://img.shields.io/badge/license-mit-blue.svg" alt="License" height="18">
 </a>
 
+<a href="http://beta.mybinder.org/repo/wd15/mks-tutorial" target="_blank">
+<img src="http://mybinder.org/badge.svg"
+alt="Binder">
+</a>
+
 </p>
 
 This is the repository for the Materials Knowledge System (MKS)
