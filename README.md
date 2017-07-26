@@ -120,8 +120,8 @@ success on the final line.
 
 For those that are unable to follow the instructions above, there may
 be a limited number of live [Jupyter notebooks][jupyter] with the
-environment preinstalled. This will be hosted via [MATIN][matin]. More
-details will be available soon.
+environment preinstalled. This will be hosted via [MATIN][matin]. User
+IDs and passwords will be distributed at the start of the tutorial.
 
 Alternatively, try clicking on the "launch binder" badge link
 above. This can be unreliable, but has been working recently.
