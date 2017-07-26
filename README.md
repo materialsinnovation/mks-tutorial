@@ -83,8 +83,7 @@ If you would like to do more fancy plots during the tutorial (not
 strictly necessary), install
 [bqplot](http://bqplot.readthedocs.io/en/stable/):
 
-    $ conda install bqplot
-    $ conda install ipywidgets
+    $ conda install -c conda-forge bqplot
     $ jupyter nbextension enable --py --sys-prefix widgetsnbextension
     $ jupyter nbextension enable --py --sys-prefix bqplot
 
