@@ -78,7 +78,7 @@ Python 3.6.
 Once you have a working Python environment and a Conda build environment
 then try installing the following packages,
 
-    $ conda install -c conda-forge -c pymks pymks
+    $ conda install -c conda-forge pymks
     $ conda install jupyter
     $ conda install dask
 
