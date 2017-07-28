@@ -40,18 +40,16 @@ how [PyMKS][pymks] is used to create process-structure-property
 relationships. In no particular order the tutorial will try to cover
 some of the following (time permitting),
 
- - Quantifying microstructure using 2 point statistics
-
  - Decomposing microstructure into a digital signal
 
- - Calculating the effective stiffness of composite materials
-
- - Exploring the connection between the MKS and signal processing
+ - Quantifying microstructure using 2 point statistics
 
  - Learning from a Cahn-Hilliard simulation
 
- - Using [Dask][dask] to make [PyMKS][pymks] work in a
-   threaded/multiprocessing/parallel/distributed environment
+ - Using [Dask][dask] to make [PyMKS][pymks] work in a threaded or
+   multiprocessing environment
+
+ - Using [Scikit-Learn][sklearn] to cross-validate results
 
 Some reading:
 
@@ -64,16 +62,22 @@ Some reading:
  - See the [PyMKS theory
    documentation](http://pymks.org/en/latest/THEORY.html).
 
-# Installation
+# The Tutorial
 
 The tutorial will involve live coding. To follow along participants
-will need [PyMKS][pymks], a running [Jupyter notebook][jupyter] and
-[Dask][Dask]. The easiest way to install these requirements is to
-build an [Anaconda Python][anaconda] environment. See
-[https://www.continuum.io/downloads][anaconda] to install [Anaconda
-Python][anaconda] on your platform. Any version of Python should work
-(either 2.7, 3.5 or 3.6), but this repository is only tested with
-Python 3.6.
+will either need to (a) follow the instructions below or (b) use the
+live notebooks via the web. Option (b) requires no prior installation,
+but the environment will not be available for future use.
+
+## (a) Installation
+
+Participants will will need [PyMKS][pymks], a running [Jupyter
+notebook][jupyter] and [Dask][Dask]. The easiest way to install these
+requirements is to build an [Anaconda Python][anaconda]
+environment. See [https://www.continuum.io/downloads][anaconda] to
+install [Anaconda Python][anaconda] on your platform. Any version of
+Python should work (either 2.7, 3.5 or 3.6), but this repository is
+only tested with Python 3.6.
 
 Once you have a working Python environment and a Conda build environment
 then try installing the following packages,
@@ -81,8 +85,9 @@ then try installing the following packages,
     $ conda install -c conda-forge pymks
     $ conda install jupyter
     $ conda install dask
+    $ conda install -c conda-forge dask-searchcv
 
-# Optional Installation
+### Optional Installation
 
 If you would like to do more fancy plots during the tutorial (not
 strictly necessary), install
@@ -91,6 +96,16 @@ strictly necessary), install
     $ conda install -c conda-forge bqplot
     $ jupyter nbextension enable --py --sys-prefix widgetsnbextension
     $ jupyter nbextension enable --py --sys-prefix bqplot
+
+## (b) Live Notebooks
+
+For those that are unable to follow the instructions above, there will
+be  live [Jupyter notebooks][jupyter] with the
+environment preinstalled. These will be hosted via [MATIN][matin]. User
+IDs and passwords will be distributed at the start of the tutorial.
+
+Alternatively, try [launching binder]() badge link
+above. This can be unreliable, but has been working recently.
 
 # Testing
 
@@ -116,16 +131,6 @@ Hit `Shift + Enter` to run a cell. If that works, try running the
 The tests will print a lot of text to the screen, but should indicate
 success on the final line.
 
-# Live Notebooks
-
-For those that are unable to follow the instructions above, there may
-be a limited number of live [Jupyter notebooks][jupyter] with the
-environment preinstalled. This will be hosted via [MATIN][matin]. User
-IDs and passwords will be distributed at the start of the tutorial.
-
-Alternatively, try clicking on the "launch binder" badge link
-above. This can be unreliable, but has been working recently.
-
 # Issues
 
 If you have problems with any of the above instructions, please raise
@@ -141,3 +146,4 @@ tutorial to give time to iron out any issues.
 [dask]: https://dask.pydata.org/en/latest/
 [anaconda]: https://www.continuum.io/downloads
 [matin]: https://matin.gatech.edu/
+[sklearn]: http://scikit-learn.org/
