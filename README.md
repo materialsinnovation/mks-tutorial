@@ -71,7 +71,7 @@ but the environment will not be available for future use.
 
 ## (a) Installation
 
-Participants will will need [PyMKS][pymks], a running [Jupyter
+Participants will need [PyMKS][pymks], a running [Jupyter
 notebook][jupyter] and [Dask][Dask]. The easiest way to install these
 requirements is to build an [Anaconda Python][anaconda]
 environment. See [https://www.continuum.io/downloads][anaconda] to
