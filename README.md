@@ -17,7 +17,7 @@ MKS Tutorial
 
 <p align="center">
 
-<a href="https://gitter.im/materialsinnovation/chimad-phase-field" target="_blank">
+<a href="https://gitter.im/materialsinnovation/pymks" target="_blank">
 <img src="https://img.shields.io/gitter/room/gitterHQ/gitter.svg" alt="Gitter Chat">
 </a>
 
@@ -25,7 +25,7 @@ MKS Tutorial
 <img src="https://api.travis-ci.org/materialsinnovation/mks-tutorial.svg" alt="Travis CI">
 </a>
 
-<a href="https://github.com/wd15/mks-tutorial/blob/master/LICENSE.md">
+<a href="https://github.com/wd15/mks-tutorial/blob/master/LICENSE">
 <img src="https://img.shields.io/badge/license-mit-blue.svg" alt="License" eight="18">
 </a>
 
@@ -77,12 +77,13 @@ Some reading:
 The tutorial will involve live coding. To follow along participants
 will either need to (a) follow the instructions below or (b) use the
 live notebooks via the web. Option (b) requires no prior installation
-and will be explained during the setup stage or the tutorial, but the
-environment will not be available for future use.
+and will be explained during the setup stage of the tutorial. However,
+this environment will not be available to the participants for future
+use.
 
 ## (a) Installation
 
-Participants will need [PyMKS][pymks], a running [Jupyter
+Participants will need [PyMKS][pymks] installed, a running [Jupyter
 notebook][jupyter] and [Dask][Dask]. The easiest way to install these
 requirements is to build an [Anaconda Python][anaconda]
 environment. See [https://www.continuum.io/downloads][anaconda] to
@@ -155,8 +156,8 @@ tutorial to give time to iron out any issues.
 [anaconda]: https://www.continuum.io/downloads
 [matin]: https://matin.gatech.edu/
 [sklearn]: http://scikit-learn.org/
-[gitter]: https://gitter.im/materialsinnovation/chimad-phase-field
-[issue]: https://github.com/wd15/mks-tutorial/issues
+[gitter]: https://gitter.im/materialsinnovation/pymks
+[issue]: https://github.com/materialsinnovation/mks-tutorial/issues
 [quickstart]: https://jupyter.readthedocs.io/en/latest/content-quickstart.html
 [binder]: http://beta.mybinder.org/repo/materialsinnovation/mks-tutorial
 [mks-paper]: http://dx.doi.org/10.1007/s40192-017-0089-0
