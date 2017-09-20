@@ -5,45 +5,42 @@
      class="inline">
 </p>
 
-<h1> <p align="center"><sup><strong>
+<h1>
+<p align="center">
+<sup>
+<strong>
 MKS Tutorial
-</strong></sup></p>
+</strong>
+</sup>
+</p>
 </h1>
 
 <p align="center">
 
-<a href="https://gitter.im/materialsinnovation/chimad-phase-field"
-   target="_blank">
-  <img src="https://img.shields.io/gitter/room/gitterHQ/gitter.svg"
-       alt="Gitter Chat">
+<a href="https://gitter.im/materialsinnovation/chimad-phase-field" target="_blank">
+<img src="https://img.shields.io/gitter/room/gitterHQ/gitter.svg" alt="Gitter Chat">
 </a>
 
-<a href="https://travis-ci.org/materialsinnovation/mks-tutorial"
-   target="_blank">
-   <img src="https://api.travis-ci.org/materialsinnovation/mks-tutorial.svg"
-        alt="Travis CI">
+<a href="https://travis-ci.org/materialsinnovation/mks-tutorial" target="_blank">
+<img src="https://api.travis-ci.org/materialsinnovation/mks-tutorial.svg" alt="Travis CI">
 </a>
 
 <a href="https://github.com/wd15/mks-tutorial/blob/master/LICENSE.md">
-   <img src="https://img.shields.io/badge/license-mit-blue.svg"
-        alt="License"
-        eight="18">
+<img src="https://img.shields.io/badge/license-mit-blue.svg" alt="License" eight="18">
 </a>
 
-<a href="http://beta.mybinder.org/repo/materialsinnovation/mks-tutorial"
-   target="_blank">
-   <img src="http://mybinder.org/badge.svg"
-        alt="Binder">
+<a href="http://beta.mybinder.org/repo/materialsinnovation/mks-tutorial" target="_blank">
+<img src="http://mybinder.org/badge.svg" alt="Binder">
 </a>
 
 </p>
 
 ## Versions
 
-| Location     | Date       | Tag                     |
-|--------------|------------|-------------------------|
-| Northwestern | 2017-08-03 | northwestern-2017-08-03 |
-| NIST         | 2017-09-27 |                         |
+| Location     | Date       | Tag                                       |
+|--------------|------------|-------------------------------------------|
+| Northwestern | 2017-08-03 | [`northwestern-2017-08-03`][northwestern] |
+| NIST         | 2017-09-27 |                                           |
 
 ## Overview
 
@@ -165,3 +162,4 @@ tutorial to give time to iron out any issues.
 [mks-paper]: http://dx.doi.org/10.1007/s40192-017-0089-0
 [theory]: http://pymks.org/en/latest/THEORY.html
 [bqplot]: http://bqplot.readthedocs.io/en/stable/
+[northwestern]: https://github.com/materialsinnovation/mks-tutorial/tree/northwestern-2017-08-03
