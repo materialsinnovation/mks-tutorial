@@ -5,36 +5,47 @@
      class="inline">
 </p>
 
-<h1> <p align="center"><sup><strong>
-MKS Tutorial &ndash; 08/03/2017
-</strong></sup></p>
+<h1>
+<p align="center">
+<sup>
+<strong>
+MKS Tutorial
+</strong>
+</sup>
+</p>
 </h1>
 
 <p align="center">
 
-<a href="https://gitter.im/usnistgov/chimad-phase-field" target="_blank">
-<img src="https://img.shields.io/gitter/room/gitterHQ/gitter.svg"
-alt="Gitter Chat">
+<a href="https://gitter.im/materialsinnovation/pymks" target="_blank">
+<img src="https://img.shields.io/gitter/room/gitterHQ/gitter.svg" alt="Gitter Chat">
 </a>
 
-<a href="https://travis-ci.org/wd15/mks-tutorial" target="_blank">
-<img src="https://api.travis-ci.org/wd15/mks-tutorial.svg" alt="Travis CI">
+<a href="https://travis-ci.org/materialsinnovation/mks-tutorial" target="_blank">
+<img src="https://api.travis-ci.org/materialsinnovation/mks-tutorial.svg" alt="Travis CI">
 </a>
 
-<a href="https://github.com/wd15/mks-tutorial/blob/master/LICENSE.md">
-<img src="https://img.shields.io/badge/license-mit-blue.svg" alt="License" height="18">
+<a href="https://github.com/wd15/mks-tutorial/blob/master/LICENSE">
+<img src="https://img.shields.io/badge/license-mit-blue.svg" alt="License" eight="18">
 </a>
 
-<a href="http://beta.mybinder.org/repo/wd15/mks-tutorial" target="_blank">
-<img src="http://mybinder.org/badge.svg"
-alt="Binder">
+<a href="http://beta.mybinder.org/repo/materialsinnovation/mks-tutorial" target="_blank">
+<img src="http://mybinder.org/badge.svg" alt="Binder">
 </a>
 
 </p>
 
+## Versions
+
+| Location     | Date       | Tag                                       |
+|--------------|------------|-------------------------------------------|
+| Northwestern | 2017-08-03 | [`northwestern-2017-08-03`][northwestern] |
+| NIST         | 2017-09-27 |                                           |
+
+## Overview
+
 This is the repository for the Materials Knowledge System (MKS)
-tutorial scheduled for 08/03/2017 at the CHiMaD Phase Field
-Workshop. The tutorial will explore materials informatics using the
+tutorial. The tutorial will explore materials informatics using the
 [PyMKS][pymks] package.  The primary focus will be on demonstrating
 how [PyMKS][pymks] is used to create process-structure-property
 relationships. In no particular order the tutorial will try to cover
@@ -57,21 +68,22 @@ Some reading:
    Accelerated Development of Hierarchical Materials*, D. B. Brough,
    D. Wheeler and S. R. Kalidindi; Integrating Materials and
    Manufacturing Innovation, 2017, vol. 6, issue 1, pp 36-52,
-   [doi:10.1007/s40192-017-0089-0](http://dx.doi.org/10.1007/s40192-017-0089-0).
+   [doi:10.1007/s40192-017-0089-0][mks-paper].
 
- - See the [PyMKS theory
-   documentation](http://pymks.org/en/latest/THEORY.html).
+ - See the [PyMKS theory documentation][theory].
 
-# The Tutorial
+## How it works
 
 The tutorial will involve live coding. To follow along participants
 will either need to (a) follow the instructions below or (b) use the
-live notebooks via the web. Option (b) requires no prior installation,
-but the environment will not be available for future use.
+live notebooks via the web. Option (b) requires no prior installation
+and will be explained during the setup stage of the tutorial. However,
+this environment will not be available to the participants for future
+use.
 
 ## (a) Installation
 
-Participants will need [PyMKS][pymks], a running [Jupyter
+Participants will need [PyMKS][pymks] installed, a running [Jupyter
 notebook][jupyter] and [Dask][Dask]. The easiest way to install these
 requirements is to build an [Anaconda Python][anaconda]
 environment. See [https://www.continuum.io/downloads][anaconda] to
@@ -90,8 +102,7 @@ then try installing the following packages,
 ### Optional Installation
 
 If you would like to do more fancy plots during the tutorial (not
-strictly necessary), install
-[bqplot](http://bqplot.readthedocs.io/en/stable/):
+strictly necessary), install [bqplot][bqplot]:
 
     $ conda install -c conda-forge bqplot
     $ jupyter nbextension enable --py --sys-prefix widgetsnbextension
@@ -104,8 +115,8 @@ be  live [Jupyter notebooks][jupyter] with the
 environment preinstalled. These will be hosted via [MATIN][matin]. User
 IDs and passwords will be distributed at the start of the tutorial.
 
-Alternatively, try [launching binder]() badge link
-above. This can be unreliable, but has been working recently.
+Alternatively, try [launching binder][binder] badge link above. This
+can be unreliable, but has been working recently.
 
 # Testing
 
@@ -115,10 +126,9 @@ To check that you have things working correctly, try launching a
     $ jupyter notebook
 
 For more information on setting up and using the notebook, see the
-[Jupyter Notebook
-Quckstart](https://jupyter.readthedocs.io/en/latest/content-quickstart.html).
-If you have a working notebook then try importing [PyMKS][pymks] and
-[Dask][dask] in the notebook with,
+[Jupyter Notebook Quckstart][quickstart].  If you have a working
+notebook then try importing [PyMKS][pymks] and [Dask][dask] in the
+notebook with,
 
     In []: import pymks
     In []: import dask
@@ -134,9 +144,8 @@ success on the final line.
 # Issues
 
 If you have problems with any of the above instructions, please raise
-them in the [Gitter channel](https://dask.pydata.org/en/latest/) or
-raise an [issue](https://github.com/wd15/mks-tutorial/issues) in this
-repository. These instructions are a moving target so will likely
+them in the [Gitter channel][gitter] or raise an [issue][issue] in
+this repository. These instructions are a moving target so will likely
 change if people report issues on various platforms. Also, please try
 and go through these installation instructions a few days before the
 tutorial to give time to iron out any issues.
@@ -147,3 +156,11 @@ tutorial to give time to iron out any issues.
 [anaconda]: https://www.continuum.io/downloads
 [matin]: https://matin.gatech.edu/
 [sklearn]: http://scikit-learn.org/
+[gitter]: https://gitter.im/materialsinnovation/pymks
+[issue]: https://github.com/materialsinnovation/mks-tutorial/issues
+[quickstart]: https://jupyter.readthedocs.io/en/latest/content-quickstart.html
+[binder]: http://beta.mybinder.org/repo/materialsinnovation/mks-tutorial
+[mks-paper]: http://dx.doi.org/10.1007/s40192-017-0089-0
+[theory]: http://pymks.org/en/latest/THEORY.html
+[bqplot]: http://bqplot.readthedocs.io/en/stable/
+[northwestern]: https://github.com/materialsinnovation/mks-tutorial/tree/northwestern-2017-08-03
