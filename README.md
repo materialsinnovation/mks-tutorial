@@ -40,7 +40,7 @@ MKS Tutorial
 | Location     | Date       | Tag                                       | Presentation                   |
 |--------------|------------|-------------------------------------------|--------------------------------|
 | Northwestern | 2017-08-03 | [`northwestern-2017-08-03`][northwestern] | [presentation1][presentation1] |
-| NIST         | 2017-09-27 |                                           | [presentation2][presentation2] |
+| NIST         | 2017-09-27 | [`nist-2017-09-27`][nist]                 | [presentation2][presentation2] |
 
 ## Overview
 
@@ -164,5 +164,6 @@ tutorial to give time to iron out any issues.
 [theory]: http://pymks.org/en/latest/THEORY.html
 [bqplot]: http://bqplot.readthedocs.io/en/stable/
 [northwestern]: https://github.com/materialsinnovation/mks-tutorial/tree/northwestern-2017-08-03
+[nist]: https://github.com/materialsinnovation/mks-tutorial/tree/nist-2017-09-27
 [presentation1]: https://github.com/materialsinnovation/mks-tutorial/blob/northwestern-2017-08-03/notebooks/presentation.ipynb
 [presentation2]: http://slides.com/danielwheeler-1/deck
